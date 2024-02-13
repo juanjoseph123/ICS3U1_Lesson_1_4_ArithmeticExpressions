@@ -5,23 +5,34 @@ class ArithmeticExpressions1 extends ConsoleProgram {
   */
   public void run() {
     
-    int intAge;
-    int intDays;
+    //int intAge;
+    //int intDays;
 
-    intAge = readInt("How old are you? ");
-    intDays = intAge * 365;
+    //intAge = readInt("How old are you? ");
+    //intDays = intAge * 365;
 
     //System.out.print("You have been alive for this many days: ");
-    System.out.println("You have been alive for this many days: " + intDays);
+    //System.out.println("You have been alive for this many days: " + intDays);
     //System.out.println(intDays);
 
+    int intNum1;
+    int intNum2;
+    double dblNum3;
+    double dblNum4;
+
+
+     intNum1 = 106;
+     intNum2 = 42;
+     dblNum3 = 3.1415;
+     dblNum4 = 4.02;
+      
 
     // divide an int by an int will always be an int
-
+    System.out.println(intNum1/intNum2);
     // divide an int by a double will always be a double
-
+    System.out.println(intNum1/dblNum3);
     // divide an int by a double will always be a double
-    
+    System.out.println(dblNum3/dblNum4);
 
   }
 }
